@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+</head>
+<body>
+    <h1>Deixe aqui sua sugestão de melhoria</h1>
+
+    <form action="mailto:estephanie.maga@gmail.com">
+             <label for="Nome">Nome:</label>
+             <input type="text" name="Nome" id="Nome" required>            
+             <label for="Sobrenome">Sobrenome:</label>
+             <input type="text" name="Sobrenome" id="Sobrenome" required>
+             <br>
+             <label for="E-mail">E-mail</label>
+             <input placeholder="ex: abc@gmail.com" name="E-mail" id="E-mail" required>
+             <br>
+             <label for="Idade">Idade</label>
+             <input type="number" name="Idade" id="Idade">
+             <br>
+             <label for="Sugestões">Sugestões</label>
+             <select name="Sugestões" id="Sugestões">
+                <option value="Rapido">Vendas e Pedidos</option>
+                <option value="Frete">Frete e Envio</option>
+                <option value="preços">Forma de Pagamento</option>
+                <option value="produto">Produtos</option>
+                <option value="aplicativo">Aplicatibo</option>
+             </select>
+             <br>     
+             <label for="Sugestão">Sua sugestão</label>
+             <textarea name="Sugestão" id="Sugestão" cols="20" rows="5"></textarea>
+
+             
+             <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
